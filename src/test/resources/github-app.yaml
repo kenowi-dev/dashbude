@@ -1,0 +1,9 @@
+apiVersion: dashbude.kenowi.dev/v1alpha1
+kind: App
+metadata:
+  name: github-item
+spec:
+  name: GitHub
+  url: www.github.com
+  icon: github
+  dashboardSelector: external

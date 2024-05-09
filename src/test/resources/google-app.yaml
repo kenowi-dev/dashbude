@@ -1,0 +1,9 @@
+apiVersion: dashbude.kenowi.dev/v1alpha1
+kind: App
+metadata:
+  name: google-item
+spec:
+  name: Google
+  url: www.google.com
+  icon: google
+  dashboardSelector: external

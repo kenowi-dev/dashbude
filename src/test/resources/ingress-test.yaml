@@ -1,0 +1,20 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-item
+  labels:
+    abc: def
+  annotations:
+    RELATED_RESOURCE_NAME: "qweqweqqweqweqweweqwe"
+spec:
+  ingressClassName: nginx-example
+  rules:
+    - http:
+        paths:
+          - path: /testpathqwe
+            pathType: Prefix
+            backend:
+              service:
+                name: test
+                port:
+                  number: 8080

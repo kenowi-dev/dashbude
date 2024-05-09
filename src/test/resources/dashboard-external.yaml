@@ -1,0 +1,7 @@
+apiVersion: dashbude.kenowi.dev/v1alpha1
+kind: Dashboard
+metadata:
+  name: external-dashboard
+spec:
+  title: "External kenowi.dev Dashboard"
+  selectorName: "external"

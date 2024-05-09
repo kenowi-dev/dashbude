@@ -1,0 +1,7 @@
+apiVersion: dashbude.kenowi.dev/v1alpha1
+kind: Dashboard
+metadata:
+  name: internal-dashboard
+spec:
+  title: "Internal kenowi.dev Dashboard"
+  selectorName: "internal"
