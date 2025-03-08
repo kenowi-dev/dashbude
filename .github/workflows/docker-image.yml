@@ -19,10 +19,10 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: systeno/exportify:${{ github.ref_name }}
+          tags: systeno/dashbude:${{ github.ref_name }}
 
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: systeno/exportify:latest
+          tags: systeno/dashbude:latest
