@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "group": {
+            "type": "string"
+          },
+          "precedence": {
+            "type": "integer",
+            "default": 0
+          },
+          "iconUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "healthUrl": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": ["name", "url"],
+        "additionalProperties" : false
+      }
+    }
+  },
+  "required": ["items"]
+}
