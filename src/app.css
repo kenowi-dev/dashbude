@@ -1,3 +1,45 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-primary-50: #fcf3ff;
+    --color-primary-100: #f7e5ff;
+    --color-primary-200: #f0cbff;
+    --color-primary-300: #e9a2ff;
+    --color-primary-400: #dd6bff;
+    --color-primary-500: #ca33ff;
+    --color-primary-600: #b113e6;
+    --color-primary-700: #950cbf;
+    --color-primary-800: #7d0c9d;
+    --color-primary-900: #69107f;
+    --color-primary-950: #450056;
+
+    --color-secondary-50: #eff6ff;
+    --color-secondary-100: #dbeafe;
+    --color-secondary-200: #c0dafd;
+    --color-secondary-300: #94c4fc;
+    --color-secondary-400: #61a3f9;
+    --color-secondary-500: #3d80f4;
+    --color-secondary-600: #2762e9;
+    --color-secondary-700: #1e4bd2;
+    --color-secondary-800: #1f3fae;
+    --color-secondary-900: #1f3989;
+    --color-secondary-950: #182453;
+
+
+    --color-tertiary-50: #effefa;
+    --color-tertiary-100: #c8fff2;
+    --color-tertiary-200: #90ffe4;
+    --color-tertiary-300: #31f6cf;
+    --color-tertiary-400: #1de4c3;
+    --color-tertiary-500: #04c8aa;
+    --color-tertiary-600: #00a18c;
+    --color-tertiary-700: #058071;
+    --color-tertiary-800: #0a655b;
+    --color-tertiary-900: #0d544c;
+    --color-tertiary-950: #003330;
+
+
+
+}
