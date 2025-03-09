@@ -33,7 +33,7 @@
     </nav>
 
     <!-- Dashboard -->
-    <main class="p-6 flex-1 bg-gradient-to-b from-primary-100 to-secondary-100 dark:from-primary-900 dark:to-secondary-900">
+    <main class="p-6 flex-1 bg-gradient-to-t from-primary-100 via-secondary-100 to-tertiary-100  dark:from-primary-900 dark:via-secondary-900 dark:to-tertiary-900 bg-hero bg-no-repeat bg-cover bg-center bg-fixed">
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             {#each Object.entries(groupedItems) as [group, items]}
